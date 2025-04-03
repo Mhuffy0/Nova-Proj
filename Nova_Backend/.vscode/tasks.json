@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build NovaBot",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "src/Core/main.cpp",
+        "src/Humanizer/ResponseVariator.cpp",
+        "src/Core/NeuralNet.cpp",
+        "src/Core/WordVectorHelper.cpp",
+        "src/Core/TopicExtractor.cpp",
+        "-Iinclude",
+        "-lsqlite3",
+        "-o",
+        "novaBot.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}

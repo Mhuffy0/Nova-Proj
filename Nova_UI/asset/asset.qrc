@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>book.png</file>
+        <file>bot.png</file>
+        <file>bot_icon.png</file>
+        <file>bot_teach_icon.png</file>
+        <file>pop.mp3</file>
+        <file>pop.wav</file>
+        <file>../../Nova_Backend/chatbot.db</file>
+    </qresource>
+    <qresource prefix="/db"/>
+</RCC>
