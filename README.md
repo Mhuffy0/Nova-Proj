@@ -110,5 +110,5 @@ It blends learnability with efficiency and explainability, great for desktop use
 
 ---
 
-## ✨ Made with ❤️ by [Dokeabj + My Beloved Ai]
+## ✨ Made with ❤️ by [Mhuffy0]
 
